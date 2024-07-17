@@ -8,8 +8,11 @@
         
         
     }
-    .banner-input{
+    .banner-input , .popular-section{
         flex-direction: column;
+    }
+    .popular-img img {
+        width: 100%;
     }
     .banner-description {
         font-size: 2vw;
