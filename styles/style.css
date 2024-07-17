@@ -10,7 +10,8 @@ body{
     
     width: 90%;
     margin: 0 auto;
-    height: 40.25rem;
+    height: auto;
+    border: 2px solid red;
 }
 
 
@@ -92,6 +93,7 @@ font-weight: 800;
 font-family: Mulish;
 font-size: 16px;
 font-weight: 400;
+width: 600px;
 }
 .banner-input{
     display: flex;
@@ -119,3 +121,52 @@ font-weight: 400;
     background-color:rgb(255, 84, 0);
     color: rgba(255, 255, 255, 0.815);
 }
+/* banner styles end */
+
+/* popular section starts here */
+.popular-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    gap: 3rem;
+    border: 2px solid yellow;
+    margin: 17vh auto;
+    
+}
+.popular-content{
+    width: calc(50%-27px);
+}
+.popular-text{
+    color: rgba(19, 19, 24, 0.7);
+    
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+}
+.popular-title{
+    color: rgb(19, 19, 24);
+
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-content div >ul>li{
+    margin-left: 20px;
+}
+.popular-img{
+    width: calc(50%-27px);
+
+}
+.btn-popular{
+    padding: 10px 30px;
+    color: whitesmoke;
+    background: rgb(255, 84, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 2.5vh;
+    font-weight: 800;
+    margin-top: 4vh;
+}
+/* popular section ends here */
