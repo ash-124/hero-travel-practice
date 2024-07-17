@@ -1,0 +1,18 @@
+@media screen and (max-width:600px){
+    
+    .ham{
+        display: block;
+    }
+    .nav-list-container{
+        display:none;
+        
+        
+    }
+    .banner-input{
+        flex-direction: column;
+    }
+    .banner-description {
+        font-size: 2vw;
+        width: 54vw
+    }
+}

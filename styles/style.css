@@ -56,6 +56,10 @@ font-weight: 400;
 .list{
     cursor: pointer;
 }
+.ham{
+    display: none;
+    font-size: 4vh;
+}
 /* banner styles */
 
 .banner-container{
@@ -85,13 +89,13 @@ text-align: center;
 .banner-title{
     color: rgb(255, 255, 255);
 font-family: Mulish;
-font-size: 64px;
+font-size: 5.7vw;
 font-weight: 800;
 }
 .banner-description{
     color: rgba(255, 255, 255, 0.726);
 font-family: Mulish;
-font-size: 16px;
+font-size: 1.5vw;
 font-weight: 400;
 width: 600px;
 }
@@ -223,3 +227,6 @@ margin: 4vh 0;
     font-weight: 700;
     transform: translate(-50% ,-50%);
 }
+
+/* responsive */
+
